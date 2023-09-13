@@ -5,8 +5,24 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
-		content="Portfolio de Nina Carducci, photographe professionnelle. Découvrez ses services de photographie et contactez-la pour des séances photo mémorables.">
-	<title>Nina Carducci - Photographe Professionnelle</title>
+		content="Portfolio de Nina Carducci, photographe professionnelle à Bordeaux. Découvrez ses services de photographie et contactez-la pour des séances photo mémorables.">
+	<title>Nina Carducci - Photographe Professionnelle - Bordeaux</title>
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Nina Carducci - Photographe Professionnelle - Bordeaux">
+	<meta property="og:description"
+		content="Portfolio de Nina Carducci, photographe professionnelle à Bordeaux. Découvrez ses services de photographie et contactez-la pour des séances photo mémorables.">
+	<meta property="og:image" content="https://lolasiebens.github.io/Projet_9_NinaCarducci/images/nina-portrait.avif">
+	<meta property="og:url" content="https://lolasiebens.github.io/Projet_9_NinaCarducci/">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Nina Carducci - Photographe Professionnelle - Bordeaux">
+	<meta name="twitter:description"
+		content="Portfolio de Nina Carducci, photographe professionnelle à Bordeaux. Découvrez ses services de photographie et contactez-la pour des séances photo mémorables.">
+	<meta name="twitter:image" content="https://lolasiebens.github.io/Projet_9_NinaCarducci/images/nina-portrait.avif">
+
+	<!-- Autres balises -->
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +35,22 @@
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 	<script src="./assets/maugallery.min.js" defer></script>
 	<script src="./assets/scripts.min.js" defer></script>
+	<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "France"
+		  },
+		  "telephone": "05 56 67 78 89",
+		  "openingHours": "Mo-Fr 10:00-19:00"
+		}
+	</script>
 </head>
 
 <body>
@@ -107,19 +139,20 @@
 							alt="Photo Entreprise" />
 						<img data-gallery-tag="Entreprises" class="gallery-item"
 							src="./assets/images/gallery/entreprise/jason-goodman-entreprise.avif"
-							alt="Photo Entreprise" />
+							alt="Photo en Entreprise" />
 						<img data-gallery-tag="Mariages" class="gallery-item"
 							src="./assets/images/gallery/mariage/hannah-busing-photo-mariage.avif"
 							alt="Photo Mariage" />
 						<img data-gallery-tag="Portrait" class="gallery-item"
-							src="./assets/images/gallery/portraits/ade-tunji-portrait.avif" alt="Photo Portrait" />
+							src="./assets/images/gallery/portraits/ade-tunji-portrait.avif" alt="Portrait" />
 						<img data-gallery-tag="Mariages" class="gallery-item"
-							src="./assets/images/gallery/mariage/jakob-owens-mariage-couple.avif" alt="Photo Mariage" />
+							src="./assets/images/gallery/mariage/jakob-owens-mariage-couple.avif"
+							alt="Photo de Mariage" />
 						<img data-gallery-tag="Portrait" class="gallery-item"
 							src="./assets/images/gallery/portraits/nino-van-prattenburg-portrait-femme.avif"
 							alt="Photo Portrait" />
 						<img data-gallery-tag="Concert" class="gallery-item"
-							src="./assets/images/gallery/concerts/austin-neill-concerts.avif" alt="Photo Concert" />
+							src="./assets/images/gallery/concerts/austin-neill-concerts.avif" alt="Photo de Concert" />
 						<img data-gallery-tag="Entreprises" class="gallery-item"
 							src="./assets/images/gallery/entreprise/mateus-campos-felipe-entreprises.avif"
 							alt="Entreprise" />
@@ -129,7 +162,7 @@
 					<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait
 						est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe
 						pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</p>
-					<p class="quote__author">- Richard Avedon</p>
+					<cite class="quote__author">- Richard Avedon</cite>
 				</blockquote>
 			</section>
 			<section id="services">
@@ -172,7 +205,7 @@
 			<blockquote class="quote">
 				<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
 					traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie.</p>
-				<p class="quote__author">- Richard Avedon</p>
+				<cite class="quote__author">- Richard Avedon</cite>
 			</blockquote>
 		</aside>
 	</main>

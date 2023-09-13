@@ -3,6 +3,8 @@ body {
 	margin: auto;
 	font-family: 'Inter';
 	font-style: normal;
+	color: #000000;
+	background-color: #ffffff;
 }
 
 .top-header {
@@ -18,13 +20,13 @@ body {
 }
 
 .top-header h1 {
-	font-size: 26px;
+	font-size: 30px;
 }
 
 .top-header nav ul {
 	display: flex;
 	list-style-type: none;
-	font-size: 14px;
+	font-size: 20px;
 	margin: 0;
 }
 
@@ -38,7 +40,7 @@ body {
 }
 
 .social-link img {
-	width: 20px;
+	width: 30px;
 }
 
 #about {
@@ -87,7 +89,9 @@ body {
 
 .about-me p {
 	width: 80%;
-	font-size: 14px;
+	font-size: 20px;
+	font-family: 'Spectral';
+	font-style: italic;
 }
 
 
@@ -98,6 +102,7 @@ body {
 
 .gallery .nav {
 	justify-content: center;
+	font-size: 20px;
 }
 
 
@@ -107,6 +112,7 @@ body {
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius: 0;
+	font-weight: bold;
 }
 
 .nav-pills .nav-link {
@@ -288,15 +294,20 @@ input[type="submit"] {
 	}
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1180px) {
 
 
 	#about {
 		flex-direction: column;
+		padding-inline: 50px;
 	}
 
 	.picture {
 		width: 50%;
+	}
+
+	.picture__left img {
+		width: 30em;
 	}
 
 	.picture__left::before {
@@ -416,6 +427,10 @@ input[type="submit"] {
 	#contact {
 		padding-inline: 2em;
 		padding-block: 2em;
+	}
+
+	.about-me p {
+		width: 100%;
 	}
 
 	form {
