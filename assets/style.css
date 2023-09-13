@@ -68,7 +68,6 @@ body {
 }
 
 .picture__left img {
-	width: 100%;
 	z-index: 1;
 	position: relative;
 }
@@ -417,6 +416,7 @@ input[type="submit"] {
 	#services .container2 {
 		align-items: center;
 		flex-direction: column;
+		padding: 0em 4em;
 	}
 
 	.service {
